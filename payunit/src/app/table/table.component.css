@@ -1,0 +1,39 @@
+table {
+    width: 100%;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  td, th {
+    width: 25%;
+  }
+
+  .pictures{ 
+        width: 50px;
+        height:auto;
+
+    
+ }
+ .pictures img{
+     width: 100%;
+     box-shadow: 2px 2px 2px   black;
+ }
+
+ .ng-container{
+     font-family: 'Poppins';
+ }
+
+ .mat-header-cell{
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: white;
+    background-color: teal;
+ }
+ 
+ @media  screen and (max-width: 900px) {
+  
+ }
+ 

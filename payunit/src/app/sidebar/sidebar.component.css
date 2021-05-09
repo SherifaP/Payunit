@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.sidenav-container {
+  height: 100%;
+  
+}
+
+.sidenav {
+  width: 200px;
+  background-color: teal;
+  
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.mat-toolbar{
+  font-size: 40px;
+  /* font-family:'Poppins'; */
+  background-color: teal;
+  color: white;
+}
+
+.sidenav-list{
+
+  font-size: 80px;
+  font-family:sans-serif;
+
+ 
+}
+
+.mat-list-item{
+  font-size: 20px;
+  color: white;
+}
+
+.logo{
+  width:100px;
+  height: auto;
+}
+
+.logo img{
+  width: 100%;
+}
+
+.menu{
+  width:125px;
+  height: auto;
+}
+
+.menu img{
+  width: 100%;
+}
+

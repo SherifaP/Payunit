@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.general-section{
+    width: 100%;
+    height: 100%;
+
+}
+
+.general-section .container{
+    width:inherit;
+    padding:1rem 5rem;
+
+}
+
+.general-section .container .content{
+    width:inherit;
+    height: inherit;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.general-section .container .content .first-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.general-section .container .content .first-section mat-card{
+    width:50%;
+}
+
+.general-section .container .content .second-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.general-section .container .content .second-section mat-card{
+    width:30%;
+}
+
+.general-section .container .content .second-section mat-card.table{
+    width: 65%;
+}
+
+ @media screen and (max-width:800px){
+    
+    .general-section{
+        width: 100%;
+        height: 100%;
+    
+    }
+    
+    .general-section .container{
+        width:inherit;
+        padding:1rem 1rem;
+    
+    }
+    
+    .general-section .container .content{
+        width:inherit;
+        height: inherit;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .general-section .container .content .first-section{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+    
+    .general-section .container .content .first-section mat-card{
+        width:100%;
+        margin-bottom: 1rem;
+    }
+    
+    .general-section .container .content .second-section{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .general-section .container .content .second-section mat-card{
+        width:100%;
+        margin-bottom: 1rem;
+    }
+    
+    .general-section .container .content .second-section mat-card.table{
+        width: 100%;
+        overflow-x: scroll;
+    }
+ 
+} 
+
